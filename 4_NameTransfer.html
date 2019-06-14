@@ -1,6 +1,6 @@
 <html>  
     <head>  
-        <title>Ãû³Æ¿Õ¼ä±ä»»</title>  
+        <title>åå­—ç©ºé—´å¹³é¢åæ ‡å˜æ¢</title>  
     </head>  
         <style type="text/css">  
             * { 
@@ -60,64 +60,64 @@
             width:120px; 
             } 
         </style> 
+
         <body>      
-		<div>
-            <p align="center">Ãû×Ö¿Õ¼ä±ä»»</p>
+		<p align="center">åå­—ç©ºé—´å˜æ¢</p>
             <div style="top:500px">
                  <input id="fileInput" type="file" onchange="processFiles()"/>
             </div>
             <ul id="navigation"> 
                 <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" >  
-                    <a href="#">±ÈÀı±ä»»</a> 
+                    <a href="#">æ¯”ä¾‹å˜æ¢</a> 
                     <ul> 
-                        <li onclick="enlarge()"><a href="#">·Å´ó</a> </li> 
-                        <li onclick="shrink()"><a href="#">ËõĞ¡</a></li> 
+                        <li onclick="enlarge()"><a href="#">æ”¾å¤§</a> </li> 
+                        <li onclick="shrink()"><a href="#">ç¼©å°</a></li> 
                     </ul> 
                 </li> 
                 <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
-                    <a href="#">Ğı×ª±ä»»</a> 
+                    <a href="#">æ—‹è½¬å˜æ¢</a> 
                     <ul> 
-                        <li onclick="rotateshun()"><a href="#">Ë³Ê±ÕëĞı×ª5¡ã</a></li> 
-                        <li onclick="rotateni()"><a href="#">ÄæÊ±ÕëĞı×ª5¡ã</a></li> 
+                        <li onclick="rotateshun()"><a href="#">é¡ºæ—¶é’ˆæ—‹è½¬5Â°</a></li> 
+                        <li onclick="rotateni()"><a href="#">é€†æ—¶é’ˆæ—‹è½¬5Â°</a></li> 
                     </ul> 
                 </li> 
                 <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
-                    <a href="#">¶Ô³Æ±ä»»</a> 
+                    <a href="#">å¯¹ç§°å˜æ¢</a> 
                     <ul> 
-                        <li onclick="symmetryx()"><a href="#">xÖá¶Ô³Æ</a></li> 
-                        <li onclick="symmetryy()"><a href="#">yÖá¶Ô³Æ</a></li> 
-                        <li onclick="symmetry0()"><a href="#">Ô­µã¶Ô³Æ</a></li> 
-                        <li onclick="symmetry1()"><a href="#">y=x¶Ô³Æ</a></li>
-                        <li onclick="symmetry2()"><a href="#">y=-xÉÏ¶Ô³Æ</a></li>  
+                        <li onclick="symmetryx()"><a href="#">xè½´å¯¹ç§°</a></li> 
+                        <li onclick="symmetryy()"><a href="#">yè½´å¯¹ç§°</a></li> 
+                        <li onclick="symmetry0()"><a href="#">åŸç‚¹å¯¹ç§°</a></li> 
+                        <li onclick="symmetry1()"><a href="#">y=xå¯¹ç§°</a></li>
+                        <li onclick="symmetry2()"><a href="#">y=-xä¸Šå¯¹ç§°</a></li>  
                     </ul> 
                 </li> 
                 <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
-                    <a href="#">Æ½ÒÆ±ä»»</a> 
+                    <a href="#">å¹³ç§»å˜æ¢</a> 
                     <ul> 
-                        <li onclick="translateright()" ><a href="#">ÓÒÆ½ÒÆ</a></li> 
-                        <li onclick="translatebutton()"><a href="#">ÏÂÆ½ÒÆ</a></li> 
-                        <li onclick="translateleft()"><a href="#">×óÆ½ÒÆ</a></li> 
-                        <li onclick="translatetop()"><a href="#">ÉÏÆ½ÒÆ</a></li> 
+                        <li onclick="translateright()" ><a href="#">å³å¹³ç§»</a></li> 
+                        <li onclick="translatebutton()"><a href="#">ä¸‹å¹³ç§»</a></li> 
+                        <li onclick="translateleft()"><a href="#">å·¦å¹³ç§»</a></li> 
+                        <li onclick="translatetop()"><a href="#">ä¸Šå¹³ç§»</a></li> 
                     </ul> 
                 </li> 
                 <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)"> 
-                    <a href="#">ÆäËû±ä»»</a> 
+                    <a href="#">å…¶ä»–å˜æ¢</a> 
                     <ul> 
-                        <li onclick="leftoblique()"><a href="#">×óĞ±±ä»»</a></li> 
-                        <li onclick="shrugged()"><a href="#">ËÊ¼ç±ä»»</a></li> 
+                        <li onclick="leftoblique()"><a href="#">å·¦æ–œå˜æ¢</a></li> 
+                        <li onclick="shrugged()"><a href="#">è€¸è‚©å˜æ¢</a></li> 
                     </ul> 
                 </li> 
                 <li onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)" >  
-                    <a href="#">»¹Ô­</a> 
+                    <a href="#">è¿˜åŸ</a> 
                     <ul> 
-                        <li onclick="reduction()"><a href="#">»¹Ô­</a> </li> 
+                        <li onclick="reduction()"><a href="#">è¿˜åŸ</a> </li> 
                         </ul> 
                     </li> 
             </ul>
             <canvas id="myCanvas" width="900" height="900" style="border:1px solid #c3c3c3">your browser does not support the canvas tag </canvas>
             
             <script type="text/javascript "> 
-                //Êó±êÊôĞÔ
+                //é¼ æ ‡å±æ€§
                 function displaySubMenu(li) { 
                     var subMenu = li.getElementsByTagName("ul")[0]; 
                     subMenu.style.display = "block"; 
@@ -128,21 +128,21 @@
                 } 
             </script> 
             <script>  
-                var number = new Array();//´æ´¢Ô­Ê¼µãÊı¾İ
-                var tran = new Array();//´æ´¢±ä»»µãÊı¾İ
-                var a = new Array();//´æ´¢xÖá
+                var number = new Array();//å­˜å‚¨åŸå§‹ç‚¹æ•°æ®
+                var tran = new Array();//å­˜å‚¨å˜æ¢ç‚¹æ•°æ®
+                var a = new Array();//å­˜å‚¨xè½´
                 var b = new Array();
-                var tranx = new Array();//´æ´¢±ä»»xÖá
+                var tranx = new Array();//å­˜å‚¨å˜æ¢xè½´
                 var trany = new Array();
-                //»¹Ô­
+                //è¿˜åŸ
                 function reduction(){
                     tran=number.slice(0);
                     tranx=a.slice(0);
                     trany=b.slice(0);
                     draw(number);  
-                    dracanvas(tranx,trany);//×ø±êÏµ        
+                    dracanvas(tranx,trany);//åæ ‡ç³»        
                 }
-                //×óĞ±±ä»»
+                //å·¦æ–œå˜æ¢
                 function leftoblique(){
                     var numberleftoblique = new Array();
                     numberleftoblique=tran.slice(0);
@@ -153,9 +153,7 @@
                     xleftoblique=tranx.slice(0);
                     yleftoblique=trany.slice(0);
                     sb=outsourcing(numberleftoblique);
- 
                     b=trany[trany.length-1]*Math.tan(Math.PI/12.0);
- 
                     for(var i=0;i<numberleftoblique.length;i++){
                         if(numberleftoblique[i]!=-1){
                             x=numberleftoblique[i];
@@ -170,15 +168,14 @@
                     tran=numberleftoblique.slice(0);
                     
                     draw(numberleftoblique);  
-                    dracanvas(xleftoblique,yleftoblique);//×ø±êÏµ        
+                    dracanvas(xleftoblique,yleftoblique);//åæ ‡ç³»        
                 }
-                //ËÊ¼ç±ä»»
+                //è€¸è‚©å˜æ¢
                 function shrugged(){
                     var numbershrugged = new Array();
                     numbershrugged=tran.slice(0);
                     var sb=new Array();
                     sb=outsourcing(numbershrugged);
- 
                     for(var i=0;i<numbershrugged.length;i++){
                         if(numbershrugged[i]!=-1){
                             x=numbershrugged[i];
@@ -192,9 +189,9 @@
                     tran=numbershrugged.slice(0);
                     
                     draw(numbershrugged);  
-                    dracanvas(tranx,tranx);//×ø±êÏµ        
+                    dracanvas(tranx,tranx);//åæ ‡ç³»        
                 }
-                //·Å´ó
+                //æ”¾å¤§
                 function enlarge(){
                     var numberlarge = new Array();
                     numberlarge=tran.slice(0);
@@ -202,7 +199,6 @@
                     var ylarge=new Array();
                     xlarge=tranx.slice(0);
                     ylarge=trany.slice(0);
- 
                     for(var i=0;i<numberlarge.length;i++){
                         if(numberlarge[i]!=-1){
                             numberlarge[i]*=1.05;
@@ -218,10 +214,10 @@
                     trany=ylarge.slice(0);
                     
                     draw(numberlarge);
-                    dracanvas(xlarge,ylarge);//×ø±êÏµ
+                    dracanvas(xlarge,ylarge);//åæ ‡ç³»
                     
                 } 
-                //ËõĞ¡
+                //ç¼©å°
                 function shrink(){
                     var numbershrink = new Array();
                     numbershrink=tran.slice(0);
@@ -229,7 +225,6 @@
                     var yshrink=new Array();
                     xshrink=tranx.slice(0);
                     yshrink=trany.slice(0);
- 
                     for(var i=0;i<numbershrink.length;i++){
                         if(numbershrink[i]!=-1){
                             numbershrink[i]*=0.95;
@@ -245,9 +240,9 @@
                     trany=yshrink.slice(0);
                     
                     draw(numbershrink);
-                    dracanvas(xshrink,yshrink);//×ø±êÏµ
+                    dracanvas(xshrink,yshrink);//åæ ‡ç³»
                 }
-                //ÓÒÆ½ÒÆ
+                //å³å¹³ç§»
                 function translateright(){
                     var numbertranslateright = new Array();
                     numbertranslateright=tran.slice(0);
@@ -255,7 +250,6 @@
                     var ytranslaterighte=new Array();
                     xtranslateright=tranx.slice(0);
                     ytranslateright=trany.slice(0);
- 
                     for(var i=0;i<numbertranslateright.length;i++){
                         if(numbertranslateright[i]!=-1){
                             numbertranslateright[i]+=0.2;
@@ -270,9 +264,9 @@
                     trany=ytranslateright.slice(0);
                     
                     draw(numbertranslateright);
-                    dracanvas(xtranslateright,ytranslateright);//×ø±êÏµ
+                    dracanvas(xtranslateright,ytranslateright);//åæ ‡ç³»
                 }
-                //×óÆ½ÒÆ
+                //å·¦å¹³ç§»
                 function translateleft(){
                     var numbertranslateleft = new Array();
                     numbertranslateleft=tran.slice(0);
@@ -280,7 +274,6 @@
                     var ytranslateleft=new Array();
                     xtranslateleft=tranx.slice(0);
                     ytranslateleft=trany.slice(0);
- 
                     for(var i=0;i<numbertranslateleft.length;i++){
                         if(numbertranslateleft[i]!=-1){
                             numbertranslateleft[i]-=0.2;
@@ -295,9 +288,9 @@
                     trany=ytranslateleft.slice(0);
                     
                     draw(numbertranslateleft);
-                    dracanvas(xtranslateleft,ytranslateleft);//×ø±êÏµ
+                    dracanvas(xtranslateleft,ytranslateleft);//åæ ‡ç³»
                 }
-                //ÉÏÆ½ÒÆ
+                //ä¸Šå¹³ç§»
                 function translatetop(){
                     var numbertranslatetop = new Array();
                     numbertranslatetop=tran.slice(0);
@@ -305,7 +298,6 @@
                     var ytranslatetop=new Array();
                     xtranslatetop=tranx.slice(0);
                     ytranslatetop=trany.slice(0);
- 
                     for(var i=0;i<numbertranslatetop.length;i++){
                         if(numbertranslatetop[i]!=-1){
                             numbertranslatetop[++i]-=0.2;
@@ -319,9 +311,9 @@
                     trany=ytranslatetop.slice(0);
                     
                     draw(numbertranslatetop);
-                    dracanvas(xtranslatetop,ytranslatetop);//×ø±êÏµ
+                    dracanvas(xtranslatetop,ytranslatetop);//åæ ‡ç³»
                 }
-                //ÏÂÆ½ÒÆ
+                //ä¸‹å¹³ç§»
                 function translatebutton(){
                     var numbertranslatebutton = new Array();
                     numbertranslatebutton=tran.slice(0);
@@ -329,7 +321,6 @@
                     var ytranslatebutton=new Array();
                     xtranslatebutton=tranx.slice(0);
                     ytranslatebutton=trany.slice(0);
- 
                     for(var i=0;i<numbertranslatebutton.length;i++){
                         if(numbertranslatebutton[i]!=-1){
                             numbertranslatebutton[++i]+=0.2;
@@ -343,9 +334,9 @@
                     trany=ytranslatebutton.slice(0);
                     
                     draw(numbertranslatebutton);
-                    dracanvas(xtranslatebutton,ytranslatebutton);//×ø±êÏµ
+                    dracanvas(xtranslatebutton,ytranslatebutton);//åæ ‡ç³»
                 }
-                //Ë³Ê±ÕëĞı×ª
+                //é¡ºæ—¶é’ˆæ—‹è½¬
                 function rotateshun(){
                     var numberrotateshun = new Array();
                     numberrotateshun=tran.slice(0);
@@ -355,9 +346,7 @@
                     var sb=new Array();
                     xrotateshun=tranx.slice(0);
                     yrotateshun=trany.slice(0);
- 
                     sb=outsourcing(numberrotateshun);
- 
                     for(var i=0;i<numberrotateshun.length;i++){
                         if(numberrotateshun[i]!=-1){
                             x=numberrotateshun[i];
@@ -373,10 +362,10 @@
                     tran=numberrotateshun.slice(0);
                     
                     draw(numberrotateshun); 
-                    dracanvas(xrotateshun,yrotateshun);//×ø±êÏµ
+                    dracanvas(xrotateshun,yrotateshun);//åæ ‡ç³»
                     
                 }
-                //ÄæÊ±ÕëĞı×ª
+                //é€†æ—¶é’ˆæ—‹è½¬
                 function rotateni(){
                     var numberrotateni = new Array();
                     numberrotateni=tran.slice(0);
@@ -386,9 +375,7 @@
                     var sb=new Array();
                     xrotateni=tranx.slice(0);
                     yrotateni=trany.slice(0);
- 
                     sb=outsourcing(numberrotateni);
- 
                     for(var i=0;i<numberrotateni.length;i++){
                         if(numberrotateni[i]!=-1){
                             x=numberrotateni[i];
@@ -404,10 +391,10 @@
                     tran=numberrotateni.slice(0);
                     
                     draw(numberrotateni); 
-                    dracanvas(xrotateni,yrotateni);//×ø±êÏµ
+                    dracanvas(xrotateni,yrotateni);//åæ ‡ç³»
                     
                 }
-                //yÖá¶Ô³Æ
+                //yè½´å¯¹ç§°
                 function symmetryx(){
                     var numbersymmetryx = new Array();
                     numbersymmetryx=tran.slice(0);
@@ -417,9 +404,7 @@
                     var sb=new Array();
                     xsymmetryx=tranx.slice(0);
                     ysymmetryx=trany.slice(0);
- 
                     sb=outsourcing(numbersymmetryx);
- 
                     for(var i=1;i<numbersymmetryx.length;i++){
                         if(numbersymmetryx[i]!=-1){
                             x=numbersymmetryx[i];
@@ -432,9 +417,9 @@
                     tran=numbersymmetryx.slice(0);
                     
                     draw(numbersymmetryx); 
-                    dracanvas(xsymmetryx,ysymmetryx);//×ø±êÏµ  
+                    dracanvas(xsymmetryx,ysymmetryx);//åæ ‡ç³»  
                 }
-                //xÖá¶Ô³Æ
+                //xè½´å¯¹ç§°
                 function symmetryy(){
                     var numbersymmetryy = new Array();
                     numbersymmetryy=tran.slice(0);
@@ -444,9 +429,7 @@
                     var sb=new Array();
                     xsymmetryy=tranx.slice(0);
                     ysymmetryy=trany.slice(0);
- 
                     sb=outsourcing(numbersymmetryy);
- 
                     for(var i=1;i<numbersymmetryy.length;i++){
                         if(numbersymmetryy[i]!=-1){
                             y=numbersymmetryy[++i];
@@ -458,9 +441,9 @@
                     tran=numbersymmetryy.slice(0);
                     
                     draw(numbersymmetryy); 
-                    dracanvas(xsymmetryy,ysymmetryy);//×ø±êÏµ  
+                    dracanvas(xsymmetryy,ysymmetryy);//åæ ‡ç³»  
                 }
-                //Ô­µã¶Ô³Æ
+                //åŸç‚¹å¯¹ç§°
                 function symmetry0(){
                     var numbersymmetry0 = new Array();
                     numbersymmetry0=tran.slice(0);
@@ -470,16 +453,13 @@
                     var sb=new Array();
                     xsymmetry0=tranx.slice(0);
                     ysymmetry0=trany.slice(0);
- 
                     sb=outsourcing(numbersymmetry0);
- 
                     for(var i=1;i<numbersymmetry0.length;i++){
                         if(numbersymmetry0[i]!=-1){
                             x=numbersymmetry0[i];
                             x-=sb[0];
                             numbersymmetry0[i]=-x;
                             numbersymmetry0[i]+=sb[0];
- 
                             y=numbersymmetry0[++i];
                             y-=sb[1];
                             numbersymmetry0[i]=-y;
@@ -489,9 +469,9 @@
                     tran=numbersymmetry0.slice(0);
                     
                     draw(numbersymmetry0); 
-                    dracanvas(xsymmetry0,ysymmetry0);//×ø±êÏµ  
+                    dracanvas(xsymmetry0,ysymmetry0);//åæ ‡ç³»  
                 }
-                //y=x¶Ô³Æ
+                //y=xå¯¹ç§°
                 function symmetry1(){
                     var numbersymmetry1 = new Array();
                     numbersymmetry1=tran.slice(0);
@@ -501,9 +481,7 @@
                     var sb=new Array();
                     xsymmetry1=tranx.slice(0);
                     ysymmetry1=trany.slice(0);
- 
                     sb=outsourcing(numbersymmetry1);
- 
                     for(var i=1;i<numbersymmetry1.length;i++){
                         if(numbersymmetry1[i]!=-1){
                             x=numbersymmetry1[i];
@@ -520,10 +498,10 @@
                     tran=numbersymmetry1.slice(0);
                     
                     draw(numbersymmetry1); 
-                    dracanvas(xsymmetry1,ysymmetry1);//×ø±êÏµ  
+                    dracanvas(xsymmetry1,ysymmetry1);//åæ ‡ç³»  
                     
                 } 
-                //y=-x¶Ô³Æ
+                //y=-xå¯¹ç§°
                 function symmetry2(){
                     var numbersymmetry2 = new Array();
                     numbersymmetry2=tran.slice(0);
@@ -533,9 +511,7 @@
                     var sb=new Array();
                     xsymmetry2=tranx.slice(0);
                     ysymmetry2=trany.slice(0);
- 
                     sb=outsourcing(numbersymmetry2);
- 
                     for(var i=1;i<numbersymmetry2.length;i++){
                         if(numbersymmetry2[i]!=-1){
                             x=numbersymmetry2[i];
@@ -552,37 +528,35 @@
                     tran=numbersymmetry2.slice(0);
                     
                     draw(numbersymmetry2); 
-                    dracanvas(xsymmetry2,ysymmetry2);//×ø±êÏµ  
+                    dracanvas(xsymmetry2,ysymmetry2);//åæ ‡ç³»  
                     
                 } 
-                //Ö÷º¯Êı
+                //ä¸»å‡½æ•°
                 function processFiles(){ 
                     var file=document.getElementById("fileInput").files[0];
                     var reader=new FileReader();
                     reader.readAsText(file);
                     reader.onload=function(e)
                     {
-                        var str = this.result;//¶ÁÈ¡ÎÄ±¾
+                        var str = this.result;//è¯»å–æ–‡æœ¬
                             
-                        number= digitalExtraction(str,number);//ÌáÈ¡Êı×Ö²¢´æÈëÊı×é
+                        number= digitalExtraction(str,number);//æå–æ•°å­—å¹¶å­˜å…¥æ•°ç»„
                         tran=number.slice(0);
                         XY();
- 
                         draw(number);
-                        dracanvas(a,b);//×ø±êÏµ 
+                        dracanvas(a,b);//åæ ‡ç³» 
                     
                     }
                 }
-                //ÌáÈ¡Êı×Ö£¬²¢´æÈëÊı×é
+                //æå–æ•°å­—ï¼Œå¹¶å­˜å…¥æ•°ç»„
                 function digitalExtraction(str,number){
                         var heap= str.replace(/[^0-9.L]/ig,"A");
- 
-                        var numcharacter="";//´æ´¢Êı×Ö×Ö·û
-                        var number =new Array();//ÌáÈ¡Êı×ÖÊı×é
+                        var numcharacter="";//å­˜å‚¨æ•°å­—å­—ç¬¦
+                        var number =new Array();//æå–æ•°å­—æ•°ç»„
                         var i=0;
-                        var flag=0;//heap×Ö·û´®µ±Ç°±ê¼Ç
-                        var n=0;//±êÊ¶Êı×ÖÓë×Ö·û×ª»»Î»ÖÃ
-                        var character=heap[flag];//»ñÈ¡×Ö·û´®µÄÒ»¸ö×Ö·û
+                        var flag=0;//heapå­—ç¬¦ä¸²å½“å‰æ ‡è®°
+                        var n=0;//æ ‡è¯†æ•°å­—ä¸å­—ç¬¦è½¬æ¢ä½ç½®
+                        var character=heap[flag];//è·å–å­—ç¬¦ä¸²çš„ä¸€ä¸ªå­—ç¬¦
                     // document.write(heap);
                         while(character!=null){
                             if(character=="L"){
@@ -606,18 +580,17 @@
                     
                         return number;
                 }
-                //»­Í¼º¯Êı
+                //ç”»å›¾å‡½æ•°
                 function draw(numb){
                     var canvas=document.getElementById('myCanvas');
                         
                         
                     var cxt=canvas.getContext('2d'); 
                     cxt.lineWidth = 8;
-                    cxt.strokeStyle = " sky blue";   
+                    cxt.strokeStyle = "blue";   
                     var n= numb.length;
                     numb[n]=-1;
                     var n= numb.length;
- 
                     var flag=0;
                     var x= new Array();
                     var y =new Array();
@@ -640,37 +613,36 @@
                         }
                     }
                 }
-                //XYÖá×ø±ê³õÊ¼»¯
+                //XYè½´åæ ‡åˆå§‹åŒ–
                 function XY(){
-                    for(var i=0;i<16;i++){
-                        a[i]=16+i*20;
-                        b[i]=16+i*20;
+                    for(var i=0;i<32;i++){
+                        a[i]=30+i*10;
+                        b[i]=30+i*10;
                     }
                     tranx=a.slice(0);
                     trany=b.slice(0);
                 }
-                //»­²¼
-                function dracanvas(ax,by){
+                //ç”»å¸ƒ
+                /*function dracanvas(ax,by){
                     var canvas=document.getElementById("myCanvas");
- 
                     var ctx =canvas.getContext('2d');
                     ctx.lineWidth = 1;
                     ctx.strokeStyle = "black";  
                     
-                    for(var i=0;i<16;i++){
+                    for(var i=0;i<40;i++){
                         ctx.beginPath();
                         ctx.moveTo(ax[0],by[i]);
-                        ctx.lineTo(ax[15],by[i]);
+                        ctx.lineTo(ax[39],by[i]);
                         ctx.stroke();
                     }
-                    for(var i=0;i<16;i++){
+                    for(var i=0;i<40;i++){
                         ctx.beginPath();
                         ctx.moveTo(ax[i],by[0]);
-                        ctx.lineTo(ax[i],by[15]);  
+                        ctx.lineTo(ax[i],by[39]);  
                         ctx.stroke();
                     }
-                }
-                //µ±Ç°Ãû×ÖÍ¼ĞÎÖĞĞÄÇó½â
+                }*/
+                //å½“å‰åå­—å›¾å½¢ä¸­å¿ƒæ±‚è§£
                 function outsourcing(arr){
                     var xs,ys,xb,yb;
                     var xm,ym;
@@ -699,7 +671,6 @@
                     ym=(ys+yb)/2;
                     sb[0]=xm;;
                     sb[1]=ym;
- 
                     return sb;
                 }
                 
